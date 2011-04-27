@@ -1,0 +1,5 @@
+LIBRARY "hook_core"
+
+EXPORTS 
+    ForHookGetMessageInjection  PRIVATE
+    InitHostWindowHandle		PRIVATE
