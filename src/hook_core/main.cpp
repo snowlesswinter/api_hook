@@ -497,5 +497,5 @@ LRESULT __stdcall ForHookGetMessageInjection(int code, WPARAM w, LPARAM l)
 
 void __stdcall InitHostWindowHandle(void* hostWindow)
 {
-    globalHostWindow = reinterpret_cast<HWND>(hostWindow); // test git
+    globalHostWindow = reinterpret_cast<HWND>(hostWindow); // test git 1
 }
